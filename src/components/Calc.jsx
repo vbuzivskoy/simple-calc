@@ -8,7 +8,7 @@ const Calc = () => {
 
   return (
     <div id="calcContainer">
-      <ContextApp.Provider value={{dispatch, state}}>
+      <ContextApp.Provider value={{ dispatch, state }}>
         <components.Display />
         <components.ClearAllButton />
         <components.SwitchSignButton />
