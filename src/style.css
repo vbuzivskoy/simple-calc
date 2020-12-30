@@ -1,0 +1,63 @@
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+
+  background: #000000;
+}
+
+#calcContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 20vw);
+  grid-template-rows: 25vw repeat(6, 20vw);
+  grid-gap: 4vw;
+
+  padding: 4vw;
+}
+
+#display {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+#display div {
+  text-align: right;
+
+  color: #FEFEFE;
+  font-size: 15vw;
+}
+
+.btn {
+  color: #F9F9F9;
+  font-size: 8vw;
+  border-radius: 10vw;
+  border: 0;
+  text-align: center;
+  padding: 0;
+}
+
+.orangeBtn {
+  background: #FD9926;
+}
+
+.lightGrayBtn {
+  background: #A5A5A5;
+}
+
+.darkGrayBtn {
+  background: #333333;
+}
+
+.span-2 {
+  grid-column: span 2;
+}
+
+.span-4 {
+  grid-column: span 4;
+}
+
+.rightPadding {
+  padding-right: 23vw;
+}
